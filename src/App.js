@@ -1,11 +1,27 @@
-import React from 'react';
-import Navigation from './components/navigation';
+import React from "react";
+import "./assets/scss/base.scss";
+import Navigation from "./components/navigation";
+import PageNotFound from "./components/PageNotFouns";
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+  Redirect,
+} from "react-router-dom";
+import PageRenderer from "./data/Page-Renderer";
 
 function App() {
   return (
-    <div className="App">
-      <Navigation />
-    </div>
+    <Router>
+      <div className="App">
+        <Navigation />
+        <Switch>
+          <Route path="/:page" component={PageRenderer} />
+          <Route path="/" render={() => <Redirect to="/home"/>} />
+          <Route component={() => <PageNotFound />}/>
+        </Switch>
+      </div>
+    </Router>
   );
 }
 

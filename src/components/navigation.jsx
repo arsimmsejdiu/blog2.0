@@ -1,14 +1,18 @@
 import React from "react";
 import { navLink } from '../data/nav.data';
+import { Link } from 'react-router-dom';
 
 export default function Navigation() {
   return (
-    <nav className="site-navigatopn">
-      <span>Blog2.0</span>
+    <nav className="site-navigation">
+      <span>Startup Landing Page</span>
       <ul>
           {navLink.map((nav, i) => (
               <li key={i}>
-                  <a href={nav.path}>{nav.title}</a>
+                <Link to={nav.path}>
+                  {nav.title}
+                </Link>
+                  
               </li>
           ))}
       </ul>
