@@ -9,11 +9,13 @@ import {
   Redirect,
 } from "react-router-dom";
 import PageRenderer from "./data/Page-Renderer";
+import TopNavigation from "./components/top.navigation";
 
 function App() {
   return (
     <Router>
       <div className="App">
+        <TopNavigation />
         <Navigation />
         <Switch>
           <Route path="/:page" component={PageRenderer} />
