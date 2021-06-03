@@ -1,6 +1,7 @@
 import React from "react";
 import { navLink } from '../data/nav.data';
 import { Link } from 'react-router-dom';
+import Lang from '../Images/translation.svg';
 
 export default function Navigation() {
   return (
@@ -15,6 +16,9 @@ export default function Navigation() {
                   
               </li>
           ))}
+          <li>
+            <img src={Lang} alt={Lang} />
+          </li>
       </ul>
     </nav>
   );
