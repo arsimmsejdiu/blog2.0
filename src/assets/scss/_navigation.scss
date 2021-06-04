@@ -5,7 +5,7 @@
   box-shadow: -1px 7px 40px -18px rgba(68, 68, 68, 0.6);
   -webkit-box-shadow: -1px 7px 40px -18px rgba(68, 68, 68, 0.6);
   -moz-box-shadow: -1px 7px 40px -18px rgba(68, 68, 68, 0.6);
-  transition: all 0.4s ease-in-out;
+  transition: all 0.2s ease-in-out;
   display: flex;
   justify-content: space-between;
   color: #444;
@@ -54,6 +54,7 @@
       padding: 0 20px 0 20px;
       color: #444;
       font-size: 1rem;
+      transition: all 0.4s ease-in-out;
       &:hover {
         color: #2297ff;
       }

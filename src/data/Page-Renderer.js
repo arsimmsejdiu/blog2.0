@@ -3,7 +3,7 @@ import { useRouteMatch } from 'react-router-dom';
 import PageNotFound from '../components/PageNotFouns';
 
 const generatePage = (page) => {
-    const component = () => require(`../pages/${page}`).default;
+    const component = () => require(`../Pages/${page}`).default;
     try {
         return React.createElement(component())
     } catch (error) {
