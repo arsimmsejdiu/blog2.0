@@ -6,7 +6,7 @@ import Lang from '../Images/translation.svg';
 export default function Navigation() {
   return (
     <nav className="site-navigation">
-      <span>Startup Landing Page</span>
+      <span>LEOEL.</span>
       <ul>
           {navLink.map((nav, i) => (
               <li key={i}>
