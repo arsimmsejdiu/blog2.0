@@ -50,25 +50,25 @@
     font-size: 1rem;
     color: #999;
     padding-bottom: 3px;
-    border-bottom: 1px solid #999;
+    border-bottom: 1px solid #444;
     width: 28rem;
     -webkit-transition: all 0.3s;
     transition: all 0.3s;
   }
   .nav__search-input::-webkit-input-placeholder {
-    color: #999;
+    color: #444;
   }
   .nav__search-input:-ms-input-placeholder {
-    color: #999;
+    color: #444;
   }
   .nav__search-input::-ms-input-placeholder {
-    color: #999;
+    color: #444;
   }
   .nav__search-input::placeholder {
-    color: #999;
+    color: #444;
   }
   .nav__search-input:focus {
     outline: none;
-    width: 25rem;
+    width: 35rem;
     border-bottom: 1px solid currentColor;
   }
