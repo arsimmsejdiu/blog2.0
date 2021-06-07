@@ -17,16 +17,17 @@
     -moz-box-shadow: -1px 9px 40px -18px rgba(68, 68, 68, 0.6);
   }
   span {
-    font-size: 24px;
+    font-size: 1.2rem;
     font-weight: 500;
     display: flex;
     align-items: center;
     margin-left: 15px;
     transition: all 0.2s ease-in-out;
     cursor: pointer;
+    color: #444;
     img {
       width: 1.8rem;
-      padding-right: 1rem;
+      padding-right: 0.6rem;
       transition: all 0.2s ease-in-out;
       cursor: pointer;
       &:hover {

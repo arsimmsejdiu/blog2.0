@@ -3,7 +3,7 @@ import { navLink } from '../data/nav.data';
 import { Link } from 'react-router-dom';
 import Lang from '../Images/translation.svg';
 import SearchBar from "./SearchBar";
-import Logo from '../Images/Logo.png';
+import Logo from '../Images/leo2.svg';
 
 export default function Navigation() {
   return (
