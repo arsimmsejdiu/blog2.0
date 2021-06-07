@@ -76,15 +76,15 @@ const heroAnimation = (completeAnimation) => {
 };
 
 const Hero = () => {
-  const [setAnimationComplete] = useState(false);
+    const [ setAnimationComplete ] = useState(false);
 
-  const completeAnimation = () => {
-    setAnimationComplete(true);
-  };
-
-  useEffect(() => {
-    heroAnimation(completeAnimation);
-  });
+    const completeAnimation = () => {
+        setAnimationComplete(true)
+      }
+    
+      useEffect(() => {
+        heroAnimation(completeAnimation);
+      });
   return (
     <div>
       <Banner />

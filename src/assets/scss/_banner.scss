@@ -1,3 +1,5 @@
+@import "./variables.scss";
+
 .banner {
   height: 80vh;
   position: relative;
@@ -5,7 +7,7 @@
     height: 90vh;
   }
   .banner-addition-bg {
-    background: $blue;
+    background: #233567;
     position: absolute;
     left: 0;
     right: 0;
@@ -38,7 +40,7 @@
       .content-inner {
         h1 {
           font-family: "Playfair Display";
-          color: $blue;
+          color: #233567;
           font-size: 3.4rem;
           line-height: 4.8rem;
           margin: 32px 0 0;
@@ -60,7 +62,7 @@
           font-size: 1rem;
           line-height: 1.6rem;
           font-weight: 300;
-          color: $blue;
+          color: #233567;
           width: 520px;
           margin: 32px 0 80px;
           @media (max-width: $widescreen) {
@@ -103,7 +105,7 @@
             padding: 0 32px;
             background: $white;
             font-weight: 600;
-            color: $blue;
+            color: #233567;
             img {
               margin-right: 1rem;
             }
@@ -134,7 +136,7 @@
           position: absolute;
           bottom: 386px;
           left: -50px;
-          background: $lBlue;
+          background: #233567;
           color: $white;
           height: 52px;
           display: flex;

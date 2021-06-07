@@ -26,7 +26,7 @@ const Banner = () => {
                   beatae, alias assumenda.
                 </p>
                 <div className="btn-row">
-                  <a href="/">Explore Articles</a>
+                  <a href="/blogs">Explore Articles</a>
                 </div>
                 <div className="play-video">
                   <div className="play-video cover"></div>
