@@ -1,9 +1,10 @@
 import React from 'react';
+import Banner from '../components/Banner';
 
 const Hero = () => {
     return (
         <div>
-            <h1>Hero Section</h1>
+            <Banner />
         </div>
     )
 }
