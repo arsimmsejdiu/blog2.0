@@ -122,18 +122,18 @@
         img {
           width: 450px;
           position: absolute;
-          bottom: 0;
+          bottom: 150px;
           left: 0;
           right: 0;
-          z-index: 9;
+          z-index: 0.1;
           @media (max-width: $widescreen) {
             width: 400px;
           }
         }
         .feature-banner {
           position: absolute;
-          bottom: 286px;
-          left: -10px;
+          bottom: 386px;
+          left: -50px;
           background: $lBlue;
           color: $white;
           height: 52px;
@@ -144,9 +144,9 @@
           font-weight: 600;
           &.green {
             background: $green;
-            right: 32px;
+            right: 12px;
             left: auto;
-            bottom: 116px;
+            bottom: 166px;
             @media (max-width: $widescreen) {
               right: -24px;
             }

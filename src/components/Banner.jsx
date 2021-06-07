@@ -1,6 +1,6 @@
 import React from "react";
 import Play from "../Images/play.svg";
-import Hand from "../Images/hand.webp";
+import Hand from "../Images/article.svg";
 
 const Banner = () => {
   return (
@@ -40,11 +40,11 @@ const Banner = () => {
             <div className="image">
               <div className="image-inner">
                 <img src={Hand} alt="Hand" />
-                <div className="feature-banner" id="featureBanner">
-                Write to us 
+                <div className="feature-banner not-found" id="featureBanner">
+                  Write to me
                 </div>
-                <div className="feature-banner green" id="featureBannerGreen">
-                 All answers here
+                <div className="feature-banner green not-found" id="featureBannerGreen">
+                  All answers here
                 </div>
               </div>
             </div>
