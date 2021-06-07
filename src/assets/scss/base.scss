@@ -11,6 +11,27 @@ body {
   background-color: #f8f9fa;
 }
 
+html{
+  scroll-behavior: smooth;
+}
+
+body::-webkit-scrollbar{
+  width: 0.5rem;
+}
+body::-webkit-scrollbar-thumb{
+  background-image: linear-gradient(
+    to top,
+    #6253e1,
+    #852d91,
+    #a3a1ff,
+    #f24645
+  );
+  border-radius: 50px;
+}
+body::-webkit-scrollbar-track{
+  background-color: transparent;
+}
+
 .not-found {
   display: flex;
   align-items: center;

@@ -3,7 +3,7 @@ import Hero from '../Sections/Hero';
 
 const Home = () => {
     return (
-        <div className="not-found">
+        <div>
             <Hero />
         </div>
     )
