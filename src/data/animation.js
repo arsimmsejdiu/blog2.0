@@ -88,3 +88,9 @@ gsap.from([featureBanner, featureBannerGreen], {
     amount: 0.2
   }
 });
+
+// const Animation = () => {
+//   return (
+
+//   )
+// }
