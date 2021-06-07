@@ -8,7 +8,7 @@ import Logo from '../Images/leo2.svg';
 export default function Navigation() {
   return (
     <nav id="header" className="site-navigation">
-      <span>
+      <span className="menu-title">
         <img src={Logo} alt={Logo} />
         Leutrim Olluri
       </span>
