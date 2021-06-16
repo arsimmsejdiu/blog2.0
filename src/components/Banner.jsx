@@ -1,5 +1,4 @@
 import React from "react";
-import Play from "../Images/play.svg";
 import Hand from "../Images/article.svg";
 
 const Banner = () => {
@@ -31,8 +30,7 @@ const Banner = () => {
                 <div className="play-video">
                   <div className="play-video cover"></div>
                   <span>
-                    <img src={Play} alt="play icon" />
-                    Watch Video
+                    Explore More
                   </span>
                 </div>
               </div>
