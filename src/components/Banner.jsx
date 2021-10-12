@@ -1,6 +1,10 @@
 import React from "react";
+//<<<<<<< HEAD
 //import Play from "../Images/play.svg";
 //import Hand from "../Images/article.svg";
+//=======
+//import Hand from "../Images/article.svg";
+//>>>>>>> 342923d7a9e40f48f172f2182f9794e8cb833565
 
 const Banner = () => {
   return (
@@ -32,8 +36,7 @@ const Banner = () => {
                 <div className="play-video">
                   <div className="play-video cover"></div>
                   <span>
-                    <img src={Play} alt="play icon" />
-                    Watch Video
+                    Explore More
                   </span>
                 </div> */}
               </div>
