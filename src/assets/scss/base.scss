@@ -4,8 +4,7 @@
 @import "./banner";
 
 body {
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
-    "Open Sans", "Helvetica Neue", sans-serif;
+  font-family: Ubuntu, sans-serif;
   font-weight: 500;
   margin: 0;
   background-color: #f8f9fa;
@@ -16,16 +15,10 @@ html{
 }
 
 body::-webkit-scrollbar{
-  width: 0.5rem;
+  width: 0.3rem;
 }
 body::-webkit-scrollbar-thumb{
-  background-image: linear-gradient(
-    to top,
-    #6253e1,
-    #852d91,
-    #a3a1ff,
-    #f24645
-  );
+  background: $bg;
   border-radius: 50px;
 }
 body::-webkit-scrollbar-track{

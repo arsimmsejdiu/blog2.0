@@ -1,8 +1,10 @@
 @import "./variables.scss";
 
 .banner {
-  height: 80vh;
+  height: 100vh;
   position: relative;
+  top: 0;
+  left: 0;
   @media (max-width: $widescreen) {
     height: 90vh;
   }
@@ -16,7 +18,7 @@
     height: 100%;
   }
   .banner-bg {
-    background: $lPink;
+    background: $bg;
     position: absolute;
     left: 0;
     right: 0;
@@ -39,8 +41,8 @@
       align-items: center;
       .content-inner {
         h1 {
-          font-family: "Playfair Display";
-          color: #233567;
+          font-family: 'Ubuntu', sans-serif;
+          color: white;
           font-size: 3.4rem !important;
           line-height: 4.8rem !important;
           margin: 32px 0 0;
@@ -59,10 +61,10 @@
           }
         }
         p {
-          font-size: 1rem;
+          font-size: 1.5rem;
           line-height: 1.6rem;
-          font-weight: 300;
-          color: #233567;
+          font-weight: 400;
+          color: white;
           width: 520px;
           margin: 32px 0 80px;
           @media (max-width: $widescreen) {

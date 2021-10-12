@@ -1,6 +1,6 @@
 import React from "react";
-import Play from "../Images/play.svg";
-import Hand from "../Images/article.svg";
+//import Play from "../Images/play.svg";
+//import Hand from "../Images/article.svg";
 
 const Banner = () => {
   return (
@@ -21,11 +21,12 @@ const Banner = () => {
                   </div>
                 </h1>
                 <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos
-                  sunt doloremque repellendus pariatur ad. Necessitatibus
-                  beatae, alias assumenda.
+                  As a senior front-end engineer with years of experience I
+                  create amazing websites and web apps to make the internet a
+                  better place. Get in touch to discuss how we can work
+                  together.
                 </p>
-                <div className="btn-row">
+                {/* <div className="btn-row">
                   <a href="/blogs">Explore Articles</a>
                 </div>
                 <div className="play-video">
@@ -34,10 +35,10 @@ const Banner = () => {
                     <img src={Play} alt="play icon" />
                     Watch Video
                   </span>
-                </div>
+                </div> */}
               </div>
             </div>
-            <div className="image">
+            {/* <div className="image">
               <div className="image-inner">
                 <img src={Hand} alt="Hand" />
                 <div className="feature-banner not-found" id="featureBanner">
@@ -47,7 +48,7 @@ const Banner = () => {
                   All answers here
                 </div>
               </div>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>
