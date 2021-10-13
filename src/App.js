@@ -10,6 +10,7 @@ import {
 } from "react-router-dom";
 import PageRenderer from "./data/Page-Renderer";
 import CustomCursor from "./components/CustomCursor";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
           <Route path="/" render={() => <Redirect to="/home"/>} />
           <Route component={() => <PageNotFound />}/>
         </Switch>
+        <Footer />
       </div>
     </Router>
   );
