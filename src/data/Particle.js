@@ -1,4 +1,5 @@
 import Particles from "react-particles-js";
+import micro from '../Images/micro.svg';
 
 function Particle() {
   return (
@@ -23,7 +24,7 @@ function Particle() {
             type: ["image", "circle"],
             image: [
               {
-                src: "/react.cd2ab268.svg",
+                src: {micro},
                 height: 20,
                 width: 23,
               },
