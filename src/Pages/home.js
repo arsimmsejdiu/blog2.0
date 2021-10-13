@@ -10,9 +10,9 @@ const Home = () => {
       <BlogPost />
       <LargeCard
         img="https://links.papareact.com/4cj"
-        title="The Greatest Outdoors"
-        description="Wishlists curated by Airbnb"
-        buttonText="Get Inspired"
+        title="The Blog Technology Info"
+        description="Wishlists curated by Leutrim Olluri"
+        buttonText="I'm flexible"
       />
     </div>
   );
