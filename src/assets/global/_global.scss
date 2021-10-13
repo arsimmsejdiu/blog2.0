@@ -1,0 +1,8 @@
+@tailwind components;
+
+@layer components {
+    .large-card-button {
+        @apply text-sm text-white bg-gray-900 px-4 py-2 rounded-lg mt-5 hover:border-2 
+          hover:text-black transition transform duration-200 ease-out hover:bg-white;
+      }
+}
