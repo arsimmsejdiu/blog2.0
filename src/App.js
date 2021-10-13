@@ -9,11 +9,13 @@ import {
   Redirect,
 } from "react-router-dom";
 import PageRenderer from "./data/Page-Renderer";
+import CustomCursor from "./components/CustomCursor";
 
 function App() {
   return (
     <Router>
       <div className="App">
+        <CustomCursor />
         <Navigation />
         <Switch>
           <Route path="/:page" component={PageRenderer} />

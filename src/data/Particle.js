@@ -1,5 +1,7 @@
 import Particles from "react-particles-js";
-import micro from '../Images/micro.svg';
+import micro from '../Images/microsoft.png';
+import azure from '../Images/azure.png';
+import devops from '../Images/devops.png';
 
 function Particle() {
   return (
@@ -29,12 +31,12 @@ function Particle() {
                 width: 23,
               },
               {
-                src: "/k8s.2d579d24.svg",
+                src: {azure},
                 height: 20,
                 width: 20,
               },
               {
-                src: "/code.b3b4c4f4.png",
+                src: {devops},
                 height: 20,
                 width: 20,
               },
