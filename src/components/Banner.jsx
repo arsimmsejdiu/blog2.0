@@ -1,5 +1,6 @@
 import React from "react";
 import TypedDiv from "./Typed";
+import Particle from "../data/Particle";
 
 const Banner = () => {
   return (
@@ -7,6 +8,7 @@ const Banner = () => {
       <div id="bannerBgAddition" className="banner-addition-bg"></div>
       <div id="bannerBg" className="banner-bg"></div>
       <div className="container">
+      <Particle className="particle"/>
         <div className="row">
           <div className="banner-inner" id="bannerInner">
             <div className="content">

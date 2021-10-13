@@ -1,5 +1,14 @@
 @import "./variables.scss";
 
+.particle {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 10;
+}
+
 .banner {
   height: 100vh;
   position: relative;
@@ -40,9 +49,7 @@
       display: flex;
       align-items: center;
       .content-inner {
-        .color{
-          color: orangered;
-        }
+        
         h1 {
           font-family: 'Ubuntu', sans-serif;
           color: white;
@@ -58,6 +65,9 @@
             overflow: hidden;
             height: 70px;
             position: relative;
+            .color{
+              color: orangered;
+            }
             span {
               position: absolute;
             }
