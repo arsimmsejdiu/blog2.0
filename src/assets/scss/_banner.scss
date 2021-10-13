@@ -35,11 +35,14 @@
       height: 90vh;
     }
     .content {
-      width: 60%;
+      width: 90%;
       height: 100%;
       display: flex;
       align-items: center;
       .content-inner {
+        .color{
+          color: orangered;
+        }
         h1 {
           font-family: 'Ubuntu', sans-serif;
           color: white;

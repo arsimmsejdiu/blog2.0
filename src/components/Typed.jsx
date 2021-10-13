@@ -2,9 +2,9 @@ import Typed from 'react-typed';
 
 function TypedDiv() {
     return (
-        <div className="w-[400px]">
+        <div>
             <Typed 
-                strings={["I'm <strong className='text-red-400'>Leutrim </strong>Olluri", "I am a <div className='text-red-400'>software engineer</div>.", "I am an <div className='text-red-400'>entrepreneur</div>"]}
+                strings={["I'm <strong className='orange'>Leutrim </strong>Olluri", "I am a <strong className='orange'>software engineer</strong>.", "I am an <strong className='orange'>entrepreneur</strong>."]}
                 loop
                 typeSpeed={80}
                 backSpeed={20}
